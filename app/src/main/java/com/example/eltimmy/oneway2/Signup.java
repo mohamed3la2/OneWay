@@ -212,7 +212,7 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
     protected void onActivityResult(int requestCode,int resultCode , Intent data){
         super.onActivityResult(requestCode,resultCode,data);
         if(resultCode==RESULT_OK && requestCode == PICK_IMAGE){
-            imageUri =data.getData();
+            imageUri =data.getData(); 
             UserPhoto.setImageURI(imageUri);
         }
     }
