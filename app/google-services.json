@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1071247204928",
+    "firebase_url": "https://oneway-500ad.firebaseio.com",
+    "project_id": "oneway-500ad",
+    "storage_bucket": "oneway-500ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071247204928:android:879fea0c04bd6944",
+        "android_client_info": {
+          "package_name": "com.example.eltimmy.oneway2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071247204928-un1drfkp7j8poeds7gj0js2vuv7bu4d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpUscdIzRDipCKQ9GSyOkGqCc5BYUngOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
