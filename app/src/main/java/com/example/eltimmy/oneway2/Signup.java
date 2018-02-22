@@ -198,7 +198,7 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
             startActivity(new Intent(this,MainActivity.class));
         }
         if(view == UserPhoto){
-            OpenGallery(); 
+            OpenGallery();
         }
 
     }
