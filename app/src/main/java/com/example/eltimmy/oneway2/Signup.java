@@ -45,7 +45,7 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
     private EditText ETPhone;
     private ImageView Back ;
     private SegmentedButtonGroup type ;
-    public String  UserDataType = "Passenger";
+    public String  UserDataType = "passengers";
 
 
 
@@ -174,6 +174,20 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
                             Toast.makeText(getApplicationContext(),"Registered Successfully",Toast.LENGTH_LONG).show();
                             progressDialog.dismiss();
 
+                            if (UserDataType == "passengers")
+                            {
+                                Toast.makeText(getApplicationContext(),"Passengers Mode",Toast.LENGTH_LONG).show();
+                                /* finish();
+                                 startActivity(new Intent(this,passengerPart.class));*/
+                            }else if(UserDataType == "drivers"){
+
+                                Toast.makeText(getApplicationContext(),"Driver Mode",Toast.LENGTH_LONG).show();/* finish();
+                                startActivity(new Intent(this,driverPart.class));*/
+                            }else{
+                                Toast.makeText(getApplicationContext(),"Something went wrong please try again",Toast.LENGTH_LONG).show();
+                            }
+
+
                         }else{
                             Toast.makeText(getApplicationContext(),"Registered Faild .. Try Again ",Toast.LENGTH_LONG).show();
                             progressDialog.dismiss();
@@ -212,7 +226,7 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
     protected void onActivityResult(int requestCode,int resultCode , Intent data){
         super.onActivityResult(requestCode,resultCode,data);
         if(resultCode==RESULT_OK && requestCode == PICK_IMAGE){
-            imageUri =data.getData(); 
+            imageUri =data.getData();
             UserPhoto.setImageURI(imageUri);
         }
     }
