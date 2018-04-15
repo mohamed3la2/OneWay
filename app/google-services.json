@@ -15,13 +15,21 @@
       },
       "oauth_client": [
         {
+          "client_id": "1071247204928-rki6bq702pj9c31u43srstadj0e2368u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eltimmy.oneway2",
+            "certificate_hash": "7af1fb970eef70ca70a27bd72995fc607cd8e29d"
+          }
+        },
+        {
           "client_id": "1071247204928-un1drfkp7j8poeds7gj0js2vuv7bu4d0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBpUscdIzRDipCKQ9GSyOkGqCc5BYUngOk"
+          "current_key": "AIzaSyB14RWSOtss3KzxgkZWVxHSx91ZK-lAY7c"
         }
       ],
       "services": {
@@ -29,8 +37,20 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071247204928-un1drfkp7j8poeds7gj0js2vuv7bu4d0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1071247204928-inm82v19lsfpd8jh2sqth8ahvqsebth9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "SCU.test"
+              }
+            }
+          ]
         },
         "ads_service": {
           "status": 2
